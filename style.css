@@ -38,7 +38,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 0 100px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0,0.06);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0,0.20);
 }
 
 .logo {
@@ -79,6 +79,10 @@ ul li a {
     transition: 0.3s all ease-in-out;
 }
 
+ul li .selected{
+    background-color: #40d721;
+}
+
 ul li a:hover {
     background-color: #40d721;
 }
@@ -98,4 +102,73 @@ ul li a:hover {
 .profile-box {
     display: flex;
     align-items: center;
+}
+
+main {
+    display: flex;
+    height: 90vh;
+}
+
+.left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 150px 0;
+}
+
+.left-content {
+    width: 45%;
+}
+
+.left-content h1 {
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+
+.right {
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.right .food-img {
+    height: 500px;
+    width: 500px;
+    
+}
+
+.right .food-img img {
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+.left .btn {
+    height: 37px;
+    width: 130px;
+    background-color: #2bbe0d;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    border-radius: 25px;
+}
+
+.left button {
+    all: unset;
+    font-size: 0.9rem;
+    color: #fff;
+
+}
+
+.left .fa-right-long {
+    font-size: .9rem;
+    background-color: #fff;
+    padding: 5px 5px;
+    border-radius: 50%;
+}
+
+.left .left-content a {
+    color: #2bbe0d;
 }
